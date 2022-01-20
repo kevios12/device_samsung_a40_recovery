@@ -90,7 +90,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export OF_NO_TREBLE_COMPATIBILITY_CHECK="1"
     export FOX_USE_LZMA_COMPRESSION="1"
     export LZMA_RAMDISK_TARGETS="recovery"
-    export OF_FL_PATH1="/sys/devices/virtual/camera/flash/rear_torch_flash"
+    export OF_FL_PATH1="/sbin/flashlight"
     export OF_FL_PATH2=""
 
     # use system (ROM) fingerprint where available
