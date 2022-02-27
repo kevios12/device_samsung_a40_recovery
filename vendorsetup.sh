@@ -37,7 +37,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
     export FOX_VERSION=R11.1
     export OF_MAINTAINER="Karou"
-    export FOX_BUILD_TYPE="Better_than_official"
+    export FOX_BUILD_TYPE="Stable"
 
     export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
 
@@ -58,7 +58,6 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
     # Orange_fox R11 flags
     export FOX_R11="1"
-    export FOX_BUILD_TYPE="Stable"
     export FOX_VERSION="R11.1"
     export FOX_ADVANCED_SECURITY="1"
     export OF_USE_TWRP_SAR_DETECT="1"
@@ -70,7 +69,6 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export FOX_USE_BASH_SHELL="1"
     export FOX_DELETE_AROMAFM=1
     export FOX_ASH_IS_BASH="1"
-    export FOX_USE_ZIP_BINARY="1"
     export FOX_REPLACE_BUSYBOX_PS="1"
     export OF_USE_NEW_MAGISKBOOT="1"
     export OF_SKIP_MULTIUSER_FOLDERS_BACKUP="1"
