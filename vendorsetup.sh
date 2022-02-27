@@ -70,7 +70,6 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export FOX_USE_BASH_SHELL="1"
     export FOX_DELETE_AROMAFM=1
     export FOX_ASH_IS_BASH="1"
-    export FOX_USE_TAR_BINARY="1"
     export FOX_USE_ZIP_BINARY="1"
     export FOX_REPLACE_BUSYBOX_PS="1"
     export OF_USE_NEW_MAGISKBOOT="1"
