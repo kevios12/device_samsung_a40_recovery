@@ -54,6 +54,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export OF_STATUS_INDENT_LEFT=48
     export OF_STATUS_INDENT_RIGHT=48
     export OF_TWRP_COMPATIBILITY_MODE="1"
+    export OF_CLOCK_POS=1
 
     # Orange_fox R11 flags
     export FOX_R11="1"
@@ -63,6 +64,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export OF_USE_TWRP_SAR_DETECT="1"
     export OF_DISABLE_MIUI_OTA_BY_DEFAULT="1"
     export OF_QUICK_BACKUP_LIST="/boot;/data;/system_image;/vendor_image;"
+    export OF_RUN_POST_FORMAT_PROCESS=1
     export FOX_USE_LZMA_COMPRESSION=1
     export FOX_USE_NANO_EDITOR=1
     export FOX_USE_BASH_SHELL="1"
